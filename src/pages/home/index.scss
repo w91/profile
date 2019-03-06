@@ -1,0 +1,136 @@
+@mixin abs-h-center($top: 0) {
+  position: absolute;
+  top: $top;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home {
+  text-align: center;
+}
+
+.home-cover-wrapper {
+  position: relative;
+  height: 800px;
+  background-image: url("https://img.zcool.cn/zcool-diy/ib20e2a182f07b0027999d05158e8b4428.png@1920w_1l_1an.src");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  .cover-icon-bg {
+    @include abs-h-center(302px);
+    width: 80px;
+    opacity: .5;
+  }
+  .cover-icon {
+    @include abs-h-center(233px);
+    width: 120px;
+  }
+  .cover-title {
+    @include abs-h-center(415px);
+    width: 100%;
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .cover-desc {
+    @include abs-h-center(501px);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.88);
+  }
+}
+
+.home-cover {
+  width: 100%;
+}
+
+.about-me {
+  &__title {
+    position: relative;
+    margin: 87px auto 56px;
+    width: 320px;
+    line-height: 44px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 218px;
+      height: 25px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  // 头像
+  &__avatar {
+    position: relative;
+    margin: 0 auto 10px;
+    width: 240px;
+    height: 240px;
+    background: url(https://img.zcool.cn/zcool-diy/ibf5facb10a80e7e0d2419026169cd04aa.png);
+    background-size: cover;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 120px;
+      left: 330px;
+      border-top-width: 1px;
+      width: 390px;
+      border-top-style: solid;
+      border-color: rgba(225, 225, 225, 1);
+    }
+
+    &::before {
+      left: -480px;
+    }
+  }
+
+  &__name {
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  &__profession {
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  &__description {
+    margin: 28px auto 35px;
+    line-height: 16px;
+    font-size: 12px;
+    color: rgba(155, 155, 155, 1);
+
+    &__text {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    margin-bottom: 80px;
+  }
+}
+
+.home-btn {
+  display: inline-block;
+  width: 136px;
+  border: 2px solid rgb(16, 41, 66);
+  line-height: 32px;
+  font-size: 14px;
+  color: rgb(16, 41, 66);
+  text-decoration: none;
+}
+
+.home-portfolio-btn {
+  margin: 70px 0;
+}

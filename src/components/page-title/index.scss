@@ -1,0 +1,18 @@
+.page-title {
+  margin: 0 auto 38px;
+
+  &__main {
+    display: inline-block;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  &__sub {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    color: rgba(155, 155, 155, 1);
+    vertical-align: text-top;
+  }
+}
