@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Portfolio from '../../components/portfolio';
-import data from '../../data';
+import data from '../../cover-data';
 import './index.scss';
-
-const portfolio = data.slice(0, 6);
 
 class Home extends Component {
   render() {
@@ -34,7 +32,7 @@ class Home extends Component {
           <Link className="about-me__link home-btn" to="/about">了解我</Link>
         </div>
 
-        <Portfolio portfolioItems={portfolio} />
+        <Portfolio portfolioItems={data} />
       </div>
     );
   }

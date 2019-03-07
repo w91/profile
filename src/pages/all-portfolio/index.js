@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Portfolio from '../../components/portfolio';
 import PageTitle from '../../components/page-title'
-import data from '../../data';
+import data from '../../cover-data';
 import './index.scss';
 
 class AllPortfolio extends Component {

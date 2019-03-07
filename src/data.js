@@ -8,39 +8,6 @@ import c4d7 from './assets/images/c4d/C4D-7.jpg';
 import c4d8 from './assets/images/c4d/C4D-8.jpg';
 import c4d9 from './assets/images/c4d/C4D-9.jpg';
 
-export default [
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  },
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  },
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  },
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  },
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  },
-  {
-    cover: 'https://img.zcool.cn/zcool-diy/ib47a8b7b90a350f6e4a078d464cc0abef.jpg@1000w_1l_1an.src',
-    text: '见外',
-    link: 'jianwai'
-  }
-];
-
 export const WORKS_MAP = {
   c4d: {
     width: 900,
