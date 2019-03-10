@@ -39,25 +39,54 @@ export const WORKS_MAP = {
   c4d: {
     width: 900,
     photos: [
-      c4d1, c4d2, c4d3, c4d4, c4d5, c4d6, c4d7, c4d8, c4d9
+      'http://designs.test.upcdn.net/images/c4d/C4D-1.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-2.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-3.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-4.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-5.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-6.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-7.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-8.jpg',
+      'http://designs.test.upcdn.net/images/c4d/C4D-9.jpg'
     ]
   },
   shouhui: {
     width: 1280,
     photos: [
-      shouhui1, shouhui2, shouhui3, shouhui4, shouhui5, shouhui6
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-1.jpg',
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-2.jpg',
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-3.jpg',
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-4.jpg',
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-5.jpg',
+      'http://designs.test.upcdn.net/images/shouhui/shouhui-6.jpg'
     ]
   },
   bote: {
     width: 1280,
     photos: [
-      bote1, bote2, bote3, bote4, bote5, bote6, bote7, bote8
+      'http://designs.test.upcdn.net/images/bote/bote-1.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-2.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-3.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-4.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-5.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-6.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-7.jpg',
+      'http://designs.test.upcdn.net/images/bote/bote-8.jpg'
     ]
   },
   jijin: {
     width: 1280,
     photos: [
-      jijin1, jijin2, jijin3, jijin4, jijin5, jijin6, jijin62, jijin7, jijin8, jijin9
+      'http://designs.test.upcdn.net/images/jijin/jijin-1.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-2.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-3.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-4.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-5.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-6.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-6-2.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-7.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-8.jpg',
+      'http://designs.test.upcdn.net/images/jijin/jijin-9.jpg'
     ]
   }
 };

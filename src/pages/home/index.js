@@ -18,6 +18,7 @@ class Home extends Component {
           </div>
         </div>
 
+        <Portfolio portfolioItems={data} />
 
         <div className="about-me">
           <p className="about-me__title">ABOUT ME</p>
@@ -32,7 +33,6 @@ class Home extends Component {
           <Link className="about-me__link home-btn" to="/about">了解我</Link>
         </div>
 
-        <Portfolio portfolioItems={data} />
       </div>
     );
   }

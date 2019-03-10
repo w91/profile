@@ -2,11 +2,16 @@
   margin: 0 auto;
 }
 
+.design-works-wrap {
+  padding: 20 0px;
+  // background-color: rgba(245, 245, 245, 1);
+}
+
 .design-works {
-  padding: 20px;
+  padding: 20px 0;
   margin: 0 auto;
   font-size: 0;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: #fff;
 
   &__img {
     margin-bottom: 20px;

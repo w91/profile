@@ -14,15 +14,17 @@ class Design extends Component {
     return (
       <div className="design" >
         <div className="divider"></div>
-        <PageTitle main="Works Details" style={style} />
-        <div className="design-works" style={style}>
-          {
-            photos && photos.map((photo, index) => {
-              return (
-                <img className="design-works__img" src={photo} alt="works" key={index + photo} style={style} />
-              );
-            })
-          }
+        {/* <PageTitle main="Works Details" style={style} /> */}
+        <div className="design-works-wrap">
+          <div className="design-works" style={style}>
+            {
+              photos && photos.map((photo, index) => {
+                return (
+                  <img className="design-works__img" src={photo} alt="works" key={index + photo} style={style} />
+                );
+              })
+            }
+          </div>
         </div>
         <div className="design-empty"></div>
       </div>
