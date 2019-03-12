@@ -10,7 +10,7 @@ class Home extends Component {
       <div className="home">
         <div className="home-cover-wrapper">
           <img src="https://img.zcool.cn/zcool-diy/ib2de982595a4e7f5dbda97222e64fed5c.png" alt="cover-icon-bg" className="cover-icon-bg"/>
-          <img className="cover-icon" src="https://img.zcool.cn/zcool-diy/ib492bf90a1c440ab1a1d6815058c7bb35.png" />
+          <img className="cover-icon" src="https://img.zcool.cn/zcool-diy/ib492bf90a1c440ab1a1d6815058c7bb35.png" alt="cover-icon" />
           <div className="cover-title">DISCOVER GOOD DESIGN</div>
           <div className="cover-desc">
             <div>设计，不是一件简单的事</div>

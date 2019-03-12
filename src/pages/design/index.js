@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PageTitle from '../../components/page-title'
+// import PageTitle from '../../components/page-title'
 import { WORKS_MAP } from '../../data';
 import './index.scss';
 
@@ -9,8 +9,8 @@ class Design extends Component {
     const works = WORKS_MAP[match.params.name];
     if (!works) return null;
 
-    const { width = 1280, photos } = works;
-    const style = { width: `${width}px` };
+    const { width = 1280, photos, marginBottom = 80 } = works;
+    const style = { width: `${width}px`, marginBottom: `${marginBottom}px` };
     return (
       <div className="design" >
         <div className="divider"></div>

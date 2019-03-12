@@ -9,7 +9,7 @@ class About extends Component {
       <div className="about-me">
         <div className="divider"></div>
         <PageTitle main="ABOUT ME" sub="关于我的" />
-        <img className="about-me__resume" src={resume} />
+        <img className="about-me__resume" src={resume} alt="resume" />
         <div className="about-me-empty"></div>
       </div>
     );
