@@ -53,12 +53,12 @@ export const WORKS_MAP = {
   shouhui: {
     width: 1280,
     photos: [
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-1.jpg',
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-2.jpg',
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-3.jpg',
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-4.jpg',
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-5.jpg',
-      'http://designs.test.upcdn.net/images/shouhui-2/shouhui-6.jpg'
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-1.jpg',
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-2.jpg',
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-3.jpg',
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-4.jpg',
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-5.jpg',
+      'http://designs.test.upcdn.net/images/shouhui-4/shouhui-6.jpg'
     ]
   },
   bote: {
