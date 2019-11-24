@@ -12,7 +12,7 @@
 .home-cover-wrapper {
   position: relative;
   height: 800px;
-  background-image: url("https://img.zcool.cn/zcool-diy/ib20e2a182f07b0027999d05158e8b4428.png@1920w_1l_1an.src");
+  background-image: url("http://designs.test.upcdn.net/images/home-banner.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -22,16 +22,20 @@
     width: 80px;
     opacity: .5;
   }
+
   .cover-icon {
     @include abs-h-center(233px);
     width: 120px;
   }
+
   .cover-title {
     @include abs-h-center(415px);
     width: 100%;
     font-size: 56px;
     font-weight: bold;
+    letter-spacing: 10px;
   }
+
   .cover-desc {
     @include abs-h-center(501px);
     font-size: 16px;
@@ -46,6 +50,8 @@
 }
 
 .about-me {
+  padding-top: 80px;
+
   &__title {
     position: relative;
     margin: 87px auto 56px;

@@ -10,7 +10,7 @@ class About extends Component {
         <PageTitle main="ABOUT ME" sub="关于我的" />
         <img
           className="about-me__resume"
-          src="http://designs.test.upcdn.net/images/resume-2.jpg"
+          src="http://designs.test.upcdn.net/images/resume-3.jpg"
           alt="resume"
         />
         <div className="about-me-empty" />

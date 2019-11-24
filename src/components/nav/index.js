@@ -20,13 +20,15 @@ class Nav extends Component {
               className="nav-icon__back"
               onClick={this.handleBackClick}
             />
-          ) : (
-            <img
-              className="nav-icon__img"
-              src="https://img.zcool.cn/zcool-diy/ib96dd0f6ec424cfbb45106570fae8167c.png"
-              alt="icon"
-            />
-          )}
+          ) : null
+          // (
+          //   <img
+          //     className="nav-icon__img"
+          //     src="https://img.zcool.cn/zcool-diy/ib96dd0f6ec424cfbb45106570fae8167c.png"
+          //     alt="icon"
+          //   />
+          // )
+          }
         </div>
         <ul className="nav-menu">
           <li className="nav-menu__item">

@@ -9,9 +9,9 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="home-cover-wrapper">
-          <img src="https://img.zcool.cn/zcool-diy/ib2de982595a4e7f5dbda97222e64fed5c.png" alt="cover-icon-bg" className="cover-icon-bg"/>
-          <img className="cover-icon" src="https://img.zcool.cn/zcool-diy/ib492bf90a1c440ab1a1d6815058c7bb35.png" alt="cover-icon" />
-          <div className="cover-title">DISCOVER GOOD DESIGN</div>
+          {/* <img src="https://img.zcool.cn/zcool-diy/ib2de982595a4e7f5dbda97222e64fed5c.png" alt="cover-icon-bg" className="cover-icon-bg"/>
+          <img className="cover-icon" src="https://img.zcool.cn/zcool-diy/ib492bf90a1c440ab1a1d6815058c7bb35.png" alt="cover-icon" /> */}
+          <div className="cover-title">DISCOVER DESIGN</div>
           <div className="cover-desc">
             <div>设计，不是一件简单的事</div>
             <div>如果设计简单，还需要设计师做什么</div>
@@ -21,8 +21,8 @@ class Home extends Component {
         <Portfolio portfolioItems={data} />
 
         <div className="about-me">
-          <p className="about-me__title">ABOUT ME</p>
-          <div className="about-me__avatar"></div>
+          {/* <p className="about-me__title">ABOUT ME</p>
+          <div className="about-me__avatar"></div> */}
           <p className="about-me__name">秦川</p>
           <p className="about-me__profession">Senior Designer</p>
           <div className="about-me__description">
