@@ -50,8 +50,6 @@
 }
 
 .about-me {
-  padding-top: 80px;
-
   &__title {
     position: relative;
     margin: 87px auto 56px;
@@ -101,6 +99,7 @@
 
   &__name {
     margin: 0;
+    margin-top: 80px;
     line-height: 25px;
     font-size: 18px;
   }
